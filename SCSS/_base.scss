@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html {
+    font-size:16px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+}

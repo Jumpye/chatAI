@@ -1,0 +1,359 @@
+@import "resetCSS";
+@import "base";
+.BG{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: right 0;
+    background-size: 50%;
+}
+.wrap{
+    max-width: 1300px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    h1{
+        width: 50%;
+        img{
+            max-width: 80%;
+            height: auto;
+        }
+    }
+    .price{
+        background-color: #FF5D50;
+        color: #fff;
+        padding: 15px 25px;
+        border-radius: 22px;
+        &:hover{
+            background-color: #ff8b82;
+        }
+    }
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title{
+        width: 40%;
+        p {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #56C4C5;
+            padding-bottom: 10px;
+        }
+        h2{
+            font-size: 3rem;
+            font-weight: bold;
+            color: #000;
+            padding-bottom: 5px;
+            padding-bottom: 10px;
+            line-height: 1.3;
+        }
+        h3{
+            font-size: 1.1rem;
+            color: #000;
+        }
+    }
+    .bannerBG{
+        width: 60%;
+        padding-bottom: 50%;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}
+.main{
+    margin-top: 150px;
+}
+.container{
+    width: 100%;
+    margin-top: 50px;
+    h4{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 20px;
+    }
+    h5{
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 1.1rem;
+        font-weight: normal;
+        line-height: 1.3;
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+.social{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    &-item{
+        width: 30%;
+        text-align: center;
+        img {
+            width: 25%;
+        }
+        p{
+            font-size: 1rem;
+            color: grey;
+            padding: 20px 40px;
+            font-weight: 100;
+        }
+    }
+}
+.card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    &-item{
+        width: 23.33%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgb(240, 240, 240);
+        text-align: center;
+        img {
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+        h5 {
+            font-size: 1rem;
+            color: #56C4C5;
+            font-weight: bold;
+        }
+        p {
+            font-size: 1rem;
+            padding: 20px 40px;
+        }
+    }
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        width: 50%;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &-item{
+        width: 47%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgb(240, 240, 240);
+        text-align: left;
+        margin-bottom: 30px;
+        padding: 50px 25px;
+        .imgBG {
+            width: 80px;
+            height: 80px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px rgb(240, 240, 240);
+            border-radius: 100px;
+        }
+        p {
+            font-size: 1rem;
+            text-align: left;
+        }
+    }
+    &-title{
+        width: 45%;
+        line-height: 1.3;
+        h4{
+            text-align: left;
+        }
+        p{
+            text-align: left;
+        }
+        .price{
+            margin-top: 20px;
+            background-color: #56C4C5;
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 50px;
+            &:hover{
+                background-color: #86d8d9;
+            }
+        }
+    }
+}
+.comment{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-item{
+        width: 32%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgb(240, 240, 240);
+        padding: 30px 15px 0px 15px;
+        position: relative;
+        .user{
+            width: 80px;
+            height: 80px;
+            border-radius: 100px;
+            position: absolute;
+            top: -50px;
+            left: 30px;
+        }
+        h5{
+            font-size: 1rem;
+            color: #56C4C5;
+            font-weight: bold;
+        }
+        h6{
+            font-size: 1rem;
+            text-align: left;
+            padding: 20px 0px;
+        }
+        p{
+            font-size: 1rem;
+            text-align: left;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(207, 207, 207);
+        }
+    }
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.footer{
+    margin-top: 100px;
+    .footerBG{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg);
+        background-repeat: no-repeat;
+        background-color: #fff;
+        background-position: center center;
+        background-size: cover;
+    }
+    .container{
+        padding-top: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .price{
+            margin-top: 50px;
+            background-color: #56C4C5;
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 50px;
+            &:hover{
+                background-color: #86d8d9;
+            }
+        }
+    }
+    .allright{
+        margin-top: 100px;
+        text-align: center;
+        padding: 25px 0px;
+        background: rgb(230, 230, 230);
+    }
+}
+.totop{
+    background: #56C4C5;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 27px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+}
+@media (max-width: 576px) {
+    html {
+        font-size:14px;
+    }
+    .BG{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg);
+        background-size: 100%;
+        background-position-y: 350px;
+    }
+    .banner{
+        flex-direction: column;
+        align-items: start;
+        .title{
+            width: 100%;
+        }
+        .bannerBG{
+            width: 100%;
+            height: 305px;
+            background-position: center;
+            height: 505px;
+        }
+    }
+    .social{
+        flex-direction: column;
+        &-item{
+            width: 100%;
+        }
+    }
+    .card{
+        margin-top: 20px;
+        flex-direction: column;
+        padding: 30px 30px 30px 30px;
+        &-item{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+    .list{
+        flex-direction: column-reverse;
+        padding: 30px 30px 30px 30px;
+        ul{
+            width: 100%;
+        }
+        &-item{
+            width: 100%;
+        }
+        &-title{
+            width: 100%;
+            text-align: center;
+            h4{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+    .comment{
+        flex-direction: column-reverse;
+        &-item{
+            width: 100%;
+            margin-bottom: 100px;
+        }
+    }
+}
+@media (max-width: 375px) {
+    html {
+        font-size:13px;
+    }
+    .BG{
+        background-position-y: 350px;
+    }
+    .banner{
+        .bannerBG{
+            height: 305px;
+        }
+    }
+}
+
